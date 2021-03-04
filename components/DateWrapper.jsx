@@ -5,7 +5,7 @@ export default function DateWrapper({ dateString }) {
 	return (
 		<time
 			dateTime={dateString}
-			className="text-sm italic text-gray-500 mb-1 sm:mb-2 text-center h-4">
+			className="text-xs italic text-gray-500 sm:mb-2 text-center m-2">
 			{format(date, "LLLL d, yyyy")}
 		</time>
 	);
