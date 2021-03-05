@@ -52,17 +52,6 @@ export default function Post({ postData, postsAllData }) {
 					</ul>
 				</div>
 			</div>
-			<style jsx>{`
-				.content > ul > li {
-					font-size: 20px;
-				}
-				.content > ul {
-					list-style-type: disc;
-				}
-				.post-container {
-					overflow: auto;
-				}
-			`}</style>
 		</Layout>
 	);
 }
